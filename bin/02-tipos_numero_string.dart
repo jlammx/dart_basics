@@ -1,4 +1,4 @@
-void main(L) {
+void main() {
   
 // Strings
 
