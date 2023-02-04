@@ -2,11 +2,11 @@ void main() {
   
 // Strings
 
-  // Definición de variables flexibles (su valor de tipo de dato será asignado dependiendo el tipo de dato ingresado)
+  // Declaración de variables flexibles (su valor de tipo de dato será asignado dependiendo el tipo de dato ingresado)
   // var nombre = 'Tony';
   // var apellido = 'Stark';
 
-  // Definición de variables por tipo de dato (recomendada)
+  // Declaración de variables por tipo de dato (recomendada)
   // String nombre = 'Daenerys';
   // String apellido = 'Targaryen';
 
