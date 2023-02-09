@@ -36,6 +36,8 @@ class PezVoladores extends Peces with Volador, Nadador{}
 
 void main() {
 
+// Instanciar un animal y mostrar las características que este posee.
+
   // Mamíferos
   final flipper = new Delfines();
   final grobat = new Murcielagos();
