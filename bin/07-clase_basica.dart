@@ -4,12 +4,14 @@ void main() {
   // final Heroe wolverine = new Heroe();
   // final wolverine = new Heroe('Daenery Targaryen', 'Dracarys');
   // final wolverine = Heroe();
-  final wolverine = new Heroe(poder: 'Madre de Dragones', nombre: 'Daenerys');
+  final dany = new Heroe(poder: 'Madre de Dragones', nombre: 'Daenerys');
 
   // wolverine.nombre = 'Logan';
   // wolverine.poder = 'Regeneración';
 
-  print(wolverine);
+  print(dany);
+  print(dany.nombre);
+  print(dany.poder);
 }
 
 
@@ -41,7 +43,7 @@ class Heroe{
   // Mostrar las propiedades de la clase
   @override
   String toString(){
-    return 'Heroe: nombre: ${this.nombre}, poder: $poder';
+    return '*Heroe* Nombre: ${this.nombre}, Poder: $poder';
   }
 
 }

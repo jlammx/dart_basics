@@ -6,6 +6,16 @@ void main() {
     print(data.toUpperCase());
   });
 
+  // Cachando un error
+  httpGet2('https://fernando-herrera.com/cursos')
+    .then( 
+      (value){
+        print( value );
+      })
+    .catchError( (err) {
+    print('Error: $err');
+  });
+
   print('Fin del programa');
 }
 
@@ -22,3 +32,17 @@ Future<String> httpGet( String url){
     Duration(seconds: 3), () => 'Hola mundo - 3 segunos'
   );
 } */
+
+
+// Cachando un error
+Future<String> httpGet2( String url ){
+  
+  return Future.delayed( const Duration(seconds: 1), () {
+    
+    throw 'Error en la petición http';
+    
+//     return 'Respuesta de la petición http';
+    
+  });
+  
+}

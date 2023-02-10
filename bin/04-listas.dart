@@ -16,9 +16,11 @@ void main() {
 
   // Método estático (es una función que se puede llamar sin crear una instancia de la misma) 
   final masNumeros = List.generate(100, (index) => 10); // 100 elementos con valor de 10
+  print('----------');
   print(masNumeros);
   
   final masNumeros2 = List.generate(100, (int index) => index); // 100 elementos con valor 0..99
+  print('----------');
   print(masNumeros2);
 
 }
